@@ -194,3 +194,4 @@ payload:
   - DOMAIN-SUFFIX,tumblr.com
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,archive.org
