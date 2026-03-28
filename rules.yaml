@@ -22,6 +22,8 @@ payload:
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN,ai.google.dev
   - DOMAIN-KEYWORD,generativelanguage
+  # DeepSeek
+  - DOMAIN-SUFFIX,deepseek.com
   # Другие AI
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,huggingface.co
