@@ -161,6 +161,15 @@ DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-KEYWORD,spotify
 IP-CIDR,104.154.127.126/32
 IP-CIDR,35.186.224.47/32
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN-SUFFIX,gaikai.com
+DOMAIN-SUFFIX,playstation-cloud.net
+DOMAIN-SUFFIX,psndl.net
+DOMAIN-KEYWORD,playstation
+IP-CIDR,100.42.96.0/20
+IP-CIDR,104.142.128.0/17
 DOMAIN-SUFFIX,zoom.us
 DOMAIN-SUFFIX,zoom.com
 DOMAIN-SUFFIX,zoomgov.com
