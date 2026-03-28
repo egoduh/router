@@ -1,0 +1,22 @@
+name: Sync rules
+
+on:
+  push:
+    paths:
+      - rules.yaml
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate shadowrocket-rules.list from rules.yaml
+        run: grep -E '^\s+-\s' rules.yaml | sed 's/^\s*-\s*//' > shadowrocket-rules.list
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add shadowrocket-rules.list
+          git diff --cached --quiet || git commit -m "Auto-sync shadowrocket-rules.list from rules.yaml" && git push
