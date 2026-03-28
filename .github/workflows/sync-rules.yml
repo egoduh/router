@@ -5,6 +5,9 @@ on:
     paths:
       - rules.yaml
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -19,4 +22,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add shadowrocket-rules.list
-          git diff --cached --quiet || git commit -m "Auto-sync shadowrocket-rules.list from rules.yaml" && git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-sync shadowrocket-rules.list from rules.yaml"
+            git push
+          fi
