@@ -10,7 +10,7 @@
 | `shadowrocket-rules.list` | Правила для Shadowrocket (RULE-SET, плоский список) |
 | `config.yaml` | Локальный шаблон конфига для Clash Verge (не в git, содержит секреты) |
 
-**Важно:** при обновлении правил нужно менять оба файла — `rules.yaml` и `shadowrocket-rules.list`.
+`shadowrocket-rules.list` генерируется автоматически из `rules.yaml` через GitHub Action.
 
 ## Устройства
 
@@ -36,9 +36,9 @@ FINAL,DIRECT
 
 ## Как обновить правила маршрутизации
 
-1. Отредактируй `rules.yaml` в этом репо
-2. Обнови `shadowrocket-rules.list` (тот же список, но без `payload:` и без `- `)
-3. Сделай `git push`
+1. Отредактируй **только `rules.yaml`** в этом репо
+2. Сделай `git push`
+3. GitHub Action автоматически сгенерирует `shadowrocket-rules.list`
 4. Роутер подтянет автоматически (раз в сутки) или вручную: перезапустить Nikki
 5. Shadowrocket подтянет при переподключении или вручную: Config → Update
 
