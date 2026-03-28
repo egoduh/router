@@ -8,6 +8,9 @@ payload:
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openai
   - IP-CIDR,24.199.123.0/24
   - IP-CIDR,64.23.132.171/32
@@ -26,7 +29,9 @@ payload:
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN,ai.google.dev
+  - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-KEYWORD,generativelanguage
+  - DOMAIN-KEYWORD,colab
   # DeepSeek
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,deepseeksvc.com
@@ -76,6 +81,10 @@ payload:
   - IP-CIDR,91.105.192.0/23
   - IP-CIDR,95.161.64.0/20
   - IP-CIDR,5.28.192.0/18
+  - IP-CIDR,109.239.140.0/24
+
+  # ======= Google Meet =======
+  - DOMAIN-SUFFIX,meet.google.com
 
   # ======= YouTube =======
   - DOMAIN-SUFFIX,youtube.com
@@ -87,6 +96,8 @@ payload:
   - DOMAIN-SUFFIX,youtubekids.com
   - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-KEYWORD,youtube
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,216.73.80.0/20
@@ -163,6 +174,8 @@ payload:
 
   # ======= Zoom =======
   - DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-SUFFIX,zoom.com
+  - DOMAIN-SUFFIX,zoomgov.com
 
   # ======= Dev Tools =======
   - DOMAIN-SUFFIX,jetbrains.com
