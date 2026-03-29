@@ -214,3 +214,9 @@ payload:
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,archive.org
+
+  # ======= Pornhub =======
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-KEYWORD,pornhub
