@@ -83,6 +83,14 @@ payload:
   - IP-CIDR,5.28.192.0/18
   - IP-CIDR,109.239.140.0/24
 
+  # ======= Google Photos =======
+  - DOMAIN-SUFFIX,photos.google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,photosdata-pa.googleapis.com
+  - IP-CIDR,142.250.0.0/15
+  - IP-CIDR,172.217.0.0/16
+  - IP-CIDR,216.58.192.0/19
+
   # ======= Google Meet =======
   - DOMAIN-SUFFIX,meet.google.com
 
