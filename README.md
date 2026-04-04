@@ -16,8 +16,8 @@
 
 | Устройство | Софт | Конфиг |
 |---|---|---|
-| GL-MT6000 (дом) | Nikki (Mihomo) на ImmortalWrt | `/etc/nikki/profiles/main` |
-| Cudy WR3000 (дача) | Nikki (Mihomo) на OpenWrt | TODO |
+| GL-MT6000 (дача) | Nikki (Mihomo) на ImmortalWrt | `/etc/nikki/profiles/main` |
+| Cudy WR3000 | не используется | — |
 | MacBook | Clash Verge | `config.yaml` + rules.yaml по ссылке |
 | iPhone x4 | Shadowrocket | VLESS-ссылка + RULE-SET из GitHub |
 
@@ -91,4 +91,4 @@ proxies:
 ## Dashboard роутера
 
 - **URL:** http://192.168.1.1:9090/ui/
-- **Secret:** `080542`
+- **Secret:** см. `uci get nikki.mixin.api_secret` на роутере
