@@ -1,4 +1,6 @@
 payload:
+  - DOMAIN-SUFFIX,amd.com
+
   # ======= AI =======
   # OpenAI
   - DOMAIN-SUFFIX,openai.com
