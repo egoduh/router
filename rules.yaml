@@ -7,9 +7,8 @@ payload:
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,gpt.com
   - DOMAIN-SUFFIX,chat.com
-  - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
   - DOMAIN-SUFFIX,host.livekit.cloud
   - DOMAIN-SUFFIX,turn.livekit.cloud
@@ -25,8 +24,10 @@ payload:
   - DOMAIN-SUFFIX,claudemcpclient.com
   - IP-CIDR,160.79.104.0/23
   # Gemini / Google AI
-  - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,antigravity.google
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,generativeai.google
@@ -37,16 +38,21 @@ payload:
   # DeepSeek
   - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,deepseeksvc.com
+  # xAI / Grok
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  # Meta AI
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,ai.meta.com
+  - DOMAIN-SUFFIX,llama.com
   # Другие AI
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,groq.com
-  - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,stability.ai
   - DOMAIN-SUFFIX,clipdrop.co
   - DOMAIN-SUFFIX,poe.com
-  - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,dify.ai
   - DOMAIN-SUFFIX,openart.ai
   - DOMAIN-SUFFIX,jasper.ai
@@ -121,6 +127,9 @@ payload:
   - DOMAIN-SUFFIX,discordcdn.com
   - DOMAIN-SUFFIX,dis.gd
   - DOMAIN-SUFFIX,discordstatus.com
+  - DOMAIN-SUFFIX,discord.dev
+  - DOMAIN-SUFFIX,discord.new
+  - DOMAIN-SUFFIX,discord.gift
   - IP-CIDR,66.22.192.0/18
 
   # ======= Twitter / X =======
@@ -135,15 +144,18 @@ payload:
   - IP-CIDR,192.133.76.0/22
   - IP-CIDR,199.59.148.0/22
 
-  # ======= Facebook / Instagram =======
+  # ======= Facebook / Instagram / Threads =======
   - DOMAIN-SUFFIX,facebook.com
   - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,fbcdn.com
+  - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fb.me
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,threads.com
+  - DOMAIN-SUFFIX,threads.net
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,instagram
   - IP-CIDR,31.13.24.0/21
@@ -174,6 +186,7 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
   - DOMAIN-SUFFIX,whatsapp.biz
+  - DOMAIN-SUFFIX,wa.me
   - DOMAIN-KEYWORD,whatsapp
   - IP-CIDR,158.85.224.160/27
   - IP-CIDR,158.85.46.128/27
