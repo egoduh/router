@@ -22,11 +22,16 @@ jobs:
           awk -F, '/DOMAIN-SUFFIX,/{print $2} /- DOMAIN,/{print $2}' rules.yaml \
             | sed 's/^ *//' | sort -u > podkop-domains.lst
 
+      - name: Generate podkop-subnets.lst from rules.yaml
+        run: |
+          awk -F, '/IP-CIDR,/{print $2}' rules.yaml \
+            | sed 's/^ *//' | sort -t. -k1,1n -k2,2n -k3,3n -k4,4n -u > podkop-subnets.lst
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add shadowrocket-rules.list podkop-domains.lst
+          git add shadowrocket-rules.list podkop-domains.lst podkop-subnets.lst
           if ! git diff --cached --quiet; then
             git commit -m "Auto-sync rules from rules.yaml"
             git push
