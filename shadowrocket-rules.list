@@ -210,6 +210,7 @@ IP-CIDR,199.9.248.0/21
 IP-CIDR,185.42.204.0/22
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,nuerburgring.de
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokcdn.com
