@@ -254,6 +254,7 @@ payload:
   - IP-CIDR,185.42.204.0/22
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,archive.org
+  - DOMAIN-SUFFIX,nuerburgring.de
 
   # ======= TikTok =======
   - DOMAIN-SUFFIX,tiktok.com
