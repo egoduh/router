@@ -360,6 +360,7 @@ payload:
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,archive.org
   - DOMAIN-SUFFIX,nuerburgring.de
+  - DOMAIN-SUFFIX,autoauth.com
 
   # ======= TikTok / ByteDance (AS138699, AS396986) =======
   # ВНИМАНИЕ: 152.199.0.0/16 (Edgio CDN), 161.97.0.0/16 (Contabo VPS),
